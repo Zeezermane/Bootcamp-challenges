@@ -1,0 +1,10 @@
+let superHeroes = [ ["Batman", "Bruce Wayne"],
+                   ["Spiderman", "Peter Parker"],
+                   ["The Flash", "Barry Allen"]];
+
+let secretIdentity = superHeroes.map(function (identityArray) {
+    return identityArray.join(" is ");
+    
+});
+
+console.log(secretIdentity.join("\n"));
